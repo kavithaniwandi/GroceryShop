@@ -1,0 +1,27 @@
+.home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; /* behind content */
+  background: transparent;
+}
+
+.home-content {
+  position: relative;
+  z-index: 1; /* above video */
+  color: white;
+  text-align: center;
+  margin-top: 5rem; /* if you have a navbar */
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+}
